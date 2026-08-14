@@ -3,7 +3,7 @@ const MILESTONES_KEY = 'capstone-diary:milestones'
 const TIME_LOG_KEY = 'capstone-diary:timelog'
 const API_BASE_URL =
   (typeof import.meta !== 'undefined' && import.meta.env?.VITE_API_BASE_URL) ||
-  'http://localhost:8080/api'
+  '/api'
 
 function load(key, fallback) {
   try {
