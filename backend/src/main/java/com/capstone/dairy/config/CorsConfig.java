@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {
 
-    @Value("${app.cors.allowed-origins:http://localhost:5173,http://localhost:4173,https://capstone-dairy.netlify.app}")
+    @Value("${CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:4173,https://capstone-dairy.netlify.app}")
     private String allowedOrigins;
 
     @Override
