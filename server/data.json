@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "title": "Research History of QBF",
+      "content": "Link 1: https://www.sciencedirect.com/science/article/pii/S0004370218301450\nLink 2: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SAT.2022.20\n\n\nResearch paper Analysis - 1\n\n-- “The 2016 and 2017 QBF Solvers Evaluations (QBFEVAL'16 and QBFEVAL'17)”\nAuthors: Luca Pulina and Martina Seidl, Artificial Intelligence, 2019.\n\nMain purpose:\nThe paper evaluates and compares different QBF (Quantified Boolean Formula) solvers used in the 2016 and 2017 QBFEVAL competitions.\n\nQBF extends SAT by using both:\n\nExistential quantifier (∃) — there exists\nUniversal quantifier (∀) — for all\n\nHere SAT means, by using the assignment operators we can build a relation to the problem statement for solving.\n\nThe goal of the competitions was to measure the progress and performance of QBF-solving techniques.\n\nNote: QBFEVAL - \"Qunatified Boolean Formula Evaluation\" and numbering \"16\" and \"17\" are the representation of the years 2016 and 2017.\n\nAuthor says that:\nCollected many QBF solver systems.\nTested them on benchmark QBF formulas.\nCompared their solving performance.\nConsidered different types of QBF problems such as PCNF, PNCNF, 2QBF and Random QBF.\nCompared the results of QBFEVAL'16 and QBFEVAL'17.\n\nDifference b/w QBFEVAL - 16,17\nQBEFVAL - 16: Revive QBF solver competition and evaluate current solvers (Takes one solver and verify)\nQBEFVAL - 17: Improve evaluation and measure progress (Finds multiple solvers but not detailed verify)\n\nConclusion\nThe paper is mainly an evaluation and comparison study rather than a proposal of one new QBF algorithm. Its key contribution is showing the strengths and weaknesses of different QBF solvers and demonstrating that combining solvers through portfolio selection can potentially achieve better performance than relying on a single solver.\n\nComparision:\nPaper Analysis: Compares and evaluates existing QBF solvers to identify their strengths, weaknesses, and overall performance.\n\nOur Project: Integrates multiple QBF solvers, automatically selects the most suitable solver based on the input formula, and verifies the result using certificate checking.\n\n-------------------------------------------------------------------------------------------------------------------------\n\nResearch paper Analysis - 2\n\nDQBF\n(Dependency Quantified Boolean Formula)\n\n- This is an extension of the QBF.\n- Here the data is depended on each variable in the statement\n\nComparison:\nPedant Paper: Build a certifying DQBF solver. Solution extracts using inbuilt formulas. This application works on only single thing i.e dependency of the variables.\n\nOur Project: Build an integrated QBF solver. Solves multiple problems using QBF algorithms. Automatically Suggests best solver. Provides weather the certificate is valid or not.\n\n2300032331",
+      "date": "2026-08-13",
+      "status": "RESEARCH",
+      "statusSource": "manual",
+      "id": "msr6j3g6-2dwf6f",
+      "createdAt": 1786605070902,
+      "documents": []
+    }
+  ],
+  "milestones": [],
+  "timeLog": {
+    "2026-08-13": 310,
+    "2026-08-14": 268
+  }
+}

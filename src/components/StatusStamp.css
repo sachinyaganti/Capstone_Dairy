@@ -1,0 +1,39 @@
+.status-stamp {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--stamp-color);
+  border: 1.5px solid var(--stamp-color);
+  border-radius: 2px;
+  padding: 0.18rem 0.55rem;
+  position: relative;
+  white-space: nowrap;
+  background: transparent;
+}
+
+.status-stamp::before {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border: 1px solid var(--stamp-color);
+  border-radius: 1px;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.status-stamp--sm {
+  font-size: 0.62rem;
+  padding: 0.12rem 0.4rem;
+}
+
+.status-stamp--md {
+  font-size: 0.72rem;
+}
+
+.status-stamp--lg {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.75rem;
+  border-width: 2px;
+}
