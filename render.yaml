@@ -3,7 +3,7 @@ services:
     name: capstone-dairy-backend
     runtime: docker
     dockerfilePath: ./backend/Dockerfile
-    dockerContext: ./backend
+    dockerContext: .
     envVars:
       - key: DB_URL
         sync: false
